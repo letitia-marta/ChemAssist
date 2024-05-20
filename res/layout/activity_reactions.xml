@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgd2">
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clase de compuși"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#7947c4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_text"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/alcani_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Alcani"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/alchene_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Alchene"/>
+
+        <Button
+            android:id="@+id/alchine_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Alchine"/>
+
+        <Button
+            android:id="@+id/arene_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Arene"/>
+
+        <Button
+            android:id="@+id/alcooli_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Alcooli"/>
+
+        <Button
+            android:id="@+id/amine_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Amine"/>
+
+        <Button
+            android:id="@+id/aldehide_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Aldehide, cetone"/>
+
+        <Button
+            android:id="@+id/acizi_button"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:text="Acizi carboxilici"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
