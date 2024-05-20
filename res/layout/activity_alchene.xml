@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alchene"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#7947c4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Aditie -->
+                <TextView
+                    android:id="@+id/aditie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Reacții de adiție"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/hidrogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Adiția hidrogenului (hidrogenare)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/hidrogenare_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidrogenare_alchene"/>
+
+                <TextView
+                    android:id="@+id/halogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Adiția halogenilor (halogenare)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/halogenare_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/halogenare_alchene"/>
+
+                <TextView
+                    android:id="@+id/hidrohalogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          c) Adiția hidracizilor (hidrohalogenare)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/hidrohalogenare_alchene_simetrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidrohalogenare_alchene_simetrice"/>
+
+                <ImageView
+                    android:id="@+id/hidrohalogenare_alchene_nesimetrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidrohalogenare_alchene_nesimetrice"/>
+
+                <TextView
+                    android:id="@+id/hidratare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          d) Adiția apei (hidratare)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/hidratare_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidratare_alchene"/>
+
+                <!-- Polimerizare -->
+                <TextView
+                    android:id="@+id/polimerizare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Reacția de polimerizare"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/polimerizare_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/polimerizare_alchene"/>
+
+                <!-- Oxidare -->
+                <TextView
+                    android:id="@+id/oxidare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Reacții de oxidare"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/oxidare_blanda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Oxidare blândă (cu permanganat de potasiu în soluție apoasaă slab bazică)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_blanda_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_blanda_alchene"/>
+
+                <TextView
+                    android:id="@+id/oxidare_energica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Oxidare energică (cu permanganat de potasiu în mediu de acid sulfuric)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_energica_alchene"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_energica_alchene"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
