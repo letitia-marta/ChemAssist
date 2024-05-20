@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alchine"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#7947c4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Aditie -->
+                <TextView
+                    android:id="@+id/aditie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Reacții de adiție"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/hidrogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Hidrogenare"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/hidrogenare_alchine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidrogenare_alchine"/>
+
+                <TextView
+                    android:id="@+id/halogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Halogenare"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/halogenare_alchine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/halogenare_alchine"/>
+
+                <TextView
+                    android:id="@+id/aditie_acizi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          c) Adiția acizilor"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/aditie_acid_clorhidric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                      * Adiția acidului clorhidric"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/acid_clorhidric_alchine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acid_clorhidric_alchine"/>
+
+                <TextView
+                    android:id="@+id/aditie_acid_acetic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                      * Adiția acidului acetic"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/acid_acetic_alchine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acid_acetic_alchine"/>
+
+                <TextView
+                    android:id="@+id/aditie_acid_cianhidric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                      * Adiția acidului cianhidric"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/acid_cianhidric_alchine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acid_cianhidric_alchine"/>
+
+                <TextView
+                    android:id="@+id/aditie_apa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          d) Adiția apei (reacția Kucerov)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/kucerov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kucerov"/>
+
+                <!-- Dimerizare -->
+                <TextView
+                    android:id="@+id/dimerizare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Reacția de dimerizare"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/dimerizare_acetilena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dimerizare_acetilena"/>
+
+                <!-- Trimerizare -->
+                <TextView
+                    android:id="@+id/trimerizare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Reacția de trimerizare"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/trimerizare_acetilena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/trimerizare_acetilena"/>
+
+                <!-- Oxidare -->
+                <TextView
+                    android:id="@+id/oxidare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Oxidare"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/oxidare_slaba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Cu agenți oxidanți slabi (soluție de KMnO4)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_slaba_acetilena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_blanda_acetilena"/>
+
+                <TextView
+                    android:id="@+id/oxidare_energica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Oxidare energică"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_energica_acetilena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_energica_acetilena"/>
+
+                <!-- Substitutie -->
+                <TextView
+                    android:id="@+id/substitutie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Substituție"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/acetiluri_alcaline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Acetiluri ale metalelor alcaline și alcalino-pământoase"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/acetiluraNa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acetilura_na"/>
+
+                <TextView
+                    android:id="@+id/acetiluri_tranzitionale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Acetiluri ale metalelor tranziționale"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/acetiluraCu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acetilura_cu"/>
+
+                <ImageView
+                    android:id="@+id/acetiluraAg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/acetilura_ag"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
