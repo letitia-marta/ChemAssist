@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aldehide și cetone"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#7947c4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- REACTII COMUNE ALDEHIDELOR SI CETONELOR -->
+                <TextView
+                    android:id="@+id/comune"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I. REACȚII COMUNE ALDEHIDELOR ȘI CETONELOR"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Aditie -->
+                <TextView
+                    android:id="@+id/substitutie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      1. Reacții de adiție"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/hidrogenare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  a) Adiția de hidrogen"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/hidrogenare_aldehide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hidrogenare_aldehide"/>
+
+                <TextView
+                    android:id="@+id/hcn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  b) Adiția de acid cianhidric"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/cianhidric_aldehide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cianhidric_aldehide"/>
+
+                <!-- Condensare -->
+                <TextView
+                    android:id="@+id/condensarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      2. Condensarea"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/aldolica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  a) Condensarea aldolică"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/condensare_aldolica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/condensare_aldolica"/>
+
+                <TextView
+                    android:id="@+id/crotonica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  b) Condensarea crotonică"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/condensare_crotonica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/condensare_crotonica"/>
+
+                <TextView
+                    android:id="@+id/aromatici"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  c) Condensarea cu compuși aromatici"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/condensare_compusi_aromatici"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/condensare_compusi_aromatici"/>
+
+                <!-- REACTII SPECIFICE ALDEHIDELOR -->
+                <TextView
+                    android:id="@+id/specifice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="II. REACȚII SPECIFICE ALDEHIDELOR"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+                <!-- Oxidarea -->
+                <TextView
+                    android:id="@+id/oxidare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      1. Oxidarea"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/agenti_oxidanti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  a) Oxidarea cu agenți oxidanți (KMnO4, K2Cr2O7)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/agenti_oxidanti_aldehide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/agenti_oxidanti_aldehide"/>
+
+                <TextView
+                    android:id="@+id/autooxidare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  b) Oxidarea cu oxigen molecular din aer (autooxidare)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/autooxidare_aldehide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/autooxidare_aldehide"/>
+
+                <TextView
+                    android:id="@+id/tollens"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="                  c) Oxidarea cu săruri complexe ale metalelor tranziționale (reactivul Tollens)"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/tollens_aldehide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tollens_aldehide"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
