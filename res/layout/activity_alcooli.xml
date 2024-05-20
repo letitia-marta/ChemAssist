@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alcooli"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#7947c4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/home_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- cu metale alcaline -->
+                <TextView
+                    android:id="@+id/metale_alcaline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Reacții cu metale alcaline"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/alcoxid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/alcoxid"/>
+
+                <!-- Deshidratare -->
+                <TextView
+                    android:id="@+id/deshidratare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Eliminarea apei (deshidratare)"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/cald"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) În prezența H2SO4, la cald"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/deshidratare_cald_alcooli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/deshidratare_cald_alcooli"/>
+
+                <TextView
+                    android:id="@+id/mica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Cu H2SO4 în cantitate mică"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/deshidratare_alcooli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/deshidratare_alcooli"/>
+
+                <!-- Esterificare -->
+                <TextView
+                    android:id="@+id/oxidare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Esterificarea"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/acizi_minerali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          a) Cu acizi minerali"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/esterificare_minerali_alcooli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/esterificare_minerali_alcooli"/>
+
+                <TextView
+                    android:id="@+id/acizi_carboxilici"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          b) Cu acizi carboxilici"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/esterificare_carboxilici_alcooli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/esterificare_carboxilici_alcooli"/>
+
+                <!-- Oxidarea -->
+                <TextView
+                    android:id="@+id/oxidarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Oxidarea"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_alcooli_primari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_alcooli_primari"/>
+
+                <ImageView
+                    android:id="@+id/oxidare_alcooli_secundari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/oxidare_alcooli_secundari"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</ScrollView>
