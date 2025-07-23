@@ -19,3 +19,10 @@
 - Automatically balances chemical equations.
 - Handles complex reactions with multiple compounds.
 - Supports error detection for malformed or unbalanced inputs.
+
+----
+
+## 🛠️ Tech Stack
+
+- **Frontend**: XML
+- **Backend**: Java
